@@ -26,9 +26,9 @@ class EditProductsAddPage extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
                       Text("Name"),
-                      Fieldetext(textHint: "Name", iconField: Icons.title),
+                      FieldText(textHint: "Name", iconField: Icons.title),
                       Text("Note"),
-                      Fieldetext(textHint: "Note", iconField: Icons.note),
+                      FieldText(textHint: "Note", iconField: Icons.note),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         children: [

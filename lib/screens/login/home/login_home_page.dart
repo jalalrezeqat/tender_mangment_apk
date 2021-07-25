@@ -24,9 +24,9 @@ class LoginHomePage extends StatelessWidget {
                 "Login",
                 style: TextStyle(color: Colors.black, fontSize: 14),
               ),
-              Fieldetext(
+              FieldText(
                   textHint: "Email", iconField: Icons.alternate_email_outlined),
-              Fieldetext(textHint: "Password", iconField: Icons.visibility),
+              FieldText(textHint: "Password", iconField: Icons.visibility),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [

@@ -30,13 +30,13 @@ class UsersAddPage extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
                         Text("Name"),
-                        Fieldetext(textHint: "Name", iconField: Icons.person),
+                        FieldText(textHint: "Name", iconField: Icons.person),
                         Text("Email"),
-                        Fieldetext(
+                        FieldText(
                             textHint: "Email",
                             iconField: Icons.alternate_email_outlined),
                         Text("Password"),
-                        Fieldetext(
+                        FieldText(
                             textHint: "Password", iconField: Icons.visibility),
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceEvenly,

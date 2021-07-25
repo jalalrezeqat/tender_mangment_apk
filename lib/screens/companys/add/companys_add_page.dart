@@ -30,13 +30,13 @@ class CompaniesAddPage extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
                         Text("Name"),
-                        Fieldetext(textHint: "Name", iconField: Icons.title),
+                        FieldText(textHint: "Name", iconField: Icons.title),
                         Text("Email"),
-                        Fieldetext(
+                        FieldText(
                             textHint: "Email",
                             iconField: Icons.alternate_email_outlined),
                         Text("Phone"),
-                        Fieldetext(textHint: "Phone", iconField: Icons.phone),
+                        FieldText(textHint: "Phone", iconField: Icons.phone),
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                           children: [

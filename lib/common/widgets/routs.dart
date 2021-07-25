@@ -1,3 +1,4 @@
+import 'package:tenders_managment_system/common/widgets/menu.dart';
 import 'package:tenders_managment_system/screens/catagories/add/catagories_add_page.dart';
 import 'package:tenders_managment_system/screens/catagories/home/catagories_home_page.dart';
 import 'package:tenders_managment_system/screens/companys/add/companys_add_page.dart';
@@ -21,4 +22,5 @@ getRoutes(){
     UsersHomePage.routeName: (context) => UsersHomePage(),
     UsersAddPage.routeName: (context) => UsersAddPage(),
     HomeHomePage.routeName: (context) => HomeHomePage(),
+    MainMenu.routeName: (context) => MainMenu(),
   };}

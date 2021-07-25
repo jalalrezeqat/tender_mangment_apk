@@ -19,7 +19,7 @@ class Search extends StatelessWidget {
             width: device.size.width * 0.7,
             height: device.size.height * 0.04,
             margin: EdgeInsets.fromLTRB(0, 0, 27, 0),
-            child: Fieldetext(textHint: "Search", iconField: Icons.search),
+            child: FieldText(textHint: "Search", iconField: Icons.search),
           ),
 
         ],

@@ -1,20 +1,21 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
-class Fieldetext extends StatefulWidget {
+class FieldText extends StatefulWidget {
   String textHint = "";
   IconData iconField;
 
-  Fieldetext({
+  FieldText({
     required this.textHint,
     required this.iconField,
 
   });
 
   @override
-  _FieldetextState createState() => _FieldetextState();
+  _FieldTextState createState() => _FieldTextState();
 }
 
-class _FieldetextState extends State<Fieldetext> {
+class _FieldTextState extends State<FieldText> {
 
   @override
   Widget build(BuildContext context) {
@@ -43,7 +44,9 @@ class _FieldetextState extends State<Fieldetext> {
             ),
           ),
         ),
+
       ),
     );
   }
 }
+
